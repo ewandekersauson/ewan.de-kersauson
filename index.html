@@ -4,10 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ewan de Kersauson, Ingénierie de la Santé</title>
-<meta name="description" content="Portfolio d'Ewan de Kersauson, étudiant en Master 1 Ingénierie de la Santé (parcours MPS / NewDEAL) à Aix-Marseille Université. Ancien préparateur en pharmacie hospitalière (HIA Sainte-Anne).">
-<meta property="og:title" content="Ewan de Kersauson, Ingénierie de la Santé">
-<meta property="og:description" content="Découvrez mon parcours, mes expériences en pharmacie hospitalière et mes projets en innovation thérapeutique.">
-<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
@@ -42,7 +38,7 @@
   .brand{font-family:var(--display);font-weight:700;font-size:16px;color:var(--ink);text-decoration:none;white-space:nowrap}
   .top nav{display:flex;gap:26px;overflow-x:auto;scrollbar-width:none}
   .top nav::-webkit-scrollbar{display:none}
-  .top nav a{font-family:var(--display);font-weight:500;font-size:15px;color:var(--text);text-decoration:none;white-space:nowrap;transition:color .2s}
+  .top nav a{font-family:var(--display);font-weight:500;font-size:15px;color:var(--text);text-decoration:none;white-space:nowrap}
   .top nav a:hover{color:var(--green);text-decoration:underline;text-underline-offset:6px}
 
   /* Hero */
@@ -54,10 +50,8 @@
   .role small{display:block;font-size:.8em;color:var(--muted);font-weight:500;margin-top:2px}
   .lead{margin-top:20px;font-size:19px;color:var(--text)}
   .actions{display:flex;gap:22px;align-items:center;margin-top:30px;flex-wrap:wrap}
-  .btn{font-family:var(--display);font-weight:600;font-size:16px;background:var(--green);color:#fff;text-decoration:none;padding:13px 24px;border-radius:6px;transition:background .2s, transform .2s}
-  .btn:hover{background:var(--ink);color:#fff;transform:translateY(-2px)}
-  .btn-outline{font-family:var(--display);font-weight:600;font-size:15px;background:transparent;color:var(--green);border:2px solid var(--green);text-decoration:none;padding:11px 20px;border-radius:6px;display:inline-flex;align-items:center;gap:8px;transition:all .2s}
-  .btn-outline:hover{background:var(--mint);color:var(--ink);border-color:var(--ink)}
+  .btn{font-family:var(--display);font-weight:600;font-size:16px;background:var(--green);color:#fff;text-decoration:none;padding:13px 24px;border-radius:6px}
+  .btn:hover{background:var(--ink);color:#fff}
   .link{font-family:var(--display);font-weight:600;font-size:16px}
   .capsule{width:250px;height:340px;border-radius:125px;overflow:hidden;outline:2px solid var(--green);outline-offset:9px;background:var(--mint);justify-self:end}
   .capsule img{width:100%;height:100%;object-fit:cover;object-position:center 18%;display:block}
@@ -111,7 +105,7 @@
   dl.facts dt{font-family:var(--display);font-weight:600;color:var(--ink);font-size:15px}
   dl.facts dd{color:var(--text)}
 
-  .row{display:grid;grid-template-columns:130px 1fr;gap:28px;padding:32px 0;border-top:1px solid var(--line);transition:background .2s}
+  .row{display:grid;grid-template-columns:130px 1fr;gap:28px;padding:32px 0;border-top:1px solid var(--line)}
   .row:first-child{border-top:none;padding-top:0}
   .row:last-child{padding-bottom:0}
   .when{font-family:var(--display);font-weight:600;font-size:21px;color:var(--green);line-height:1.2;letter-spacing:-.01em}
@@ -149,6 +143,7 @@
     .hero-top{grid-template-columns:1fr;gap:34px}
     .capsule{width:170px;height:230px;border-radius:85px;order:-1;justify-self:start;outline-offset:7px}
     .plot{aspect-ratio:5/4}
+    .plot svg{}
     .sec{grid-template-columns:1fr;gap:26px;padding:60px 0}
     .row{grid-template-columns:1fr;gap:6px}
     .list2{columns:1}
@@ -300,4 +295,333 @@
       </div>
       <div class="capsule-wrap">
         <svg class="mol mol-a" viewBox="0 0 330 200" aria-hidden="true">
- 
+          <polygon points="110.0,45.0 157.6,72.5 157.6,127.5 110.0,155.0 62.4,127.5 62.4,72.5" fill="#D6EBE4" fill-opacity=".7" stroke="#0F5E4D" stroke-width="3" stroke-linejoin="round"/>
+          <polygon points="205.2,45.0 252.8,72.5 252.8,127.5 205.2,155.0 157.6,127.5 157.6,72.5" fill="#D6EBE4" fill-opacity=".7" stroke="#0F5E4D" stroke-width="3" stroke-linejoin="round"/>
+          <line x1="62.4" y1="72.5" x2="30" y2="54" stroke="#0F5E4D" stroke-width="3" stroke-linecap="round"/>
+          <line x1="110" y1="155" x2="110" y2="186" stroke="#0F5E4D" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="110" cy="45" r="6" fill="#0F5E4D"/><circle cx="157.6" cy="72.5" r="6" fill="#0F5E4D"/><circle cx="157.6" cy="127.5" r="6" fill="#0F5E4D"/>
+          <circle cx="62.4" cy="127.5" r="6" fill="#0F5E4D"/><circle cx="62.4" cy="72.5" r="6" fill="#0F5E4D"/><circle cx="110" cy="155" r="6" fill="#D9902B"/>
+          <circle cx="205.2" cy="45" r="6" fill="#0F5E4D"/><circle cx="252.8" cy="72.5" r="6" fill="#D9902B"/><circle cx="252.8" cy="127.5" r="6" fill="#0F5E4D"/><circle cx="205.2" cy="155" r="6" fill="#0F5E4D"/>
+          <circle cx="26" cy="52" r="8" fill="#0B2239"/><circle cx="110" cy="188" r="7" fill="#0B2239"/>
+        </svg>
+        <svg class="mol mol-b" viewBox="0 0 200 200" aria-hidden="true">
+          <polygon points="100.0,40.0 152.0,70.0 152.0,130.0 100.0,160.0 48.0,130.0 48.0,70.0" fill="#D6EBE4" fill-opacity=".8" stroke="#0F5E4D" stroke-width="3.5" stroke-linejoin="round"/>
+          <line x1="152" y1="130" x2="186" y2="150" stroke="#0F5E4D" stroke-width="3.5" stroke-linecap="round"/>
+          <circle cx="100" cy="40" r="7" fill="#0F5E4D"/><circle cx="152" cy="70" r="7" fill="#D9902B"/><circle cx="152" cy="130" r="7" fill="#0F5E4D"/>
+          <circle cx="100" cy="160" r="7" fill="#0F5E4D"/><circle cx="48" cy="130" r="7" fill="#0F5E4D"/><circle cx="48" cy="70" r="7" fill="#0F5E4D"/>
+          <circle cx="188" cy="152" r="9" fill="#0B2239"/>
+        </svg>
+        <div class="capsule"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAG4AbgDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAAAQIABAMFBgcI/8QAPxAAAQQBAwIEAwUGBQQCAwEAAQACAxEEBSExEkEGE1FhInGBBxQykaEVI0JSscEzYtHh8CRDcvEWUwiCojT/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQIDBAUG/8QAJxEBAQACAgICAgMBAQADAAAAAAECEQMhEjEEQSJREzJhBXEUgdH/2gAMAwEAAhEDEQA/AO7aUwCxhZAqDaiigQRGlEQEEpQN7pkUCohFBAQiQgEwQQe6hCPCB9lBEQoipsSlFEaRQIQrZNSlIE6UQE3Sp0hFBAi03SoAUQqHSnpAikUlUoU6BCDGoAnoIFFKUCm2RQJSFJ0KQJSiZRQIpuiooFQpOdkLQJVFG01WlIpaCkWpSNKIFIQTHcKUgQhKQshQpBiIQIWRwSkKBCFDwmQQYyElLK5IQoErZRQjdRDbYN4WQBI1OukYGkEVKQEBMBSATIIpSgFpqQCkKT0oBSgACKKlKCIUjSlIqUojSlIIj0oBOAgFIo0oQgCBRUpAqKlKUgiBFqXZR5RSkIFMVOlAlIJyEKQJSiYhCkUpCiakCECqEJiEEA6UCN0yigQhKQshSIAoRaiKoQgqUmKlIEIQTEbqUgWlKTEIUgQhLSdwSoFLUpCdAhBjItLSynhKQgxEKJlFBcaN1kQa1OG0txgAEwCNIhBAFK3UHKZBAFEQoggCiIR6SoIAompAhRSlRGiVKQFSlPZFAAKTBBMOEBCiCKAUgmpQlreTugWkCE+zWlxvjYVyq/m8vI+dnhS3TUhjtsN0d2/6qr9/itxMkbIm3Vvon5nsuZ1zx9h4j3Y+K2WR7Glz/KqgP/I7D5+4WLySNzjtdc57WC3vY35lVsnVsTEeGSzt6iaDRub+QXjur+N9R1N/l47DFG934Y3b/me61rm6hGGyMzZWmRwcWCa3VzR5+VrllzyOuPx7XtGT4s0vGm+7vkf5x2DCwjf6o4viHFywTF0yEb9LZGh1ewJ3Xiur4s0WEM1mZMXMALmuu975o71sFU/+V5hwYWyZ87427BgNgntZItSc1q3gkfQUedDKBQkYboh7SCD6FZQ5rvwkHel4FpPjDN0+aOWPMnbL0P8Ai6zIOkVu4djZrf2XSYXjzVMvJjdksDnPP+MwcDjcXSs5/wBl+P8Ap60QguT03xzpmQxjTltL3O6S3p6bPt6fJdHDqEMzmtY17b5LguuPJMnHLjyxWqSkJnvY0NN3aJC3tjTGoih3VCkWhScpCUAUUUQRRSk1BAlIqKIFKFIm0EAKQhOp02gxoFM4VwltANkpFJlCgQhRFRBeGyZGkQFpgoRCNJgEApEBFSkBpCkQjSANCZSkVAFEdlFAKUpFSkUFESFBsglWjSiNoBdJhuLVfIymY4Je5jBx1OOwSQZUsrulkbgw7h8w6Gu+Qq6+alumpLVotvgg91WmyosZhe6ZoJNAnf8A9Klqmpv0+MuaYpC0X0N2/NcZqniQSRyZD3nyw2jGNt+9ei4cnN43Tvx8PlNug1bxJHiQHrewv7uLth70uL1P7RXQh7NJiY4xNcfPeaaf/Eck+657Us6fWpWueC2Jrf8ACjbQNCwCeCb5Wv1TIkwg7GieHfDUbQwgOcBTBZoAb9z3XGZZZ16LjjhGv1HxhlSMrLnlyJXHq6DYHSKsEcd+Vp8jxWPKLmMc53WAWEkt23BH17LPqBymQsne0zmW2uc7iw42PYbXtsuUycKRsh64pGQ/ic921mgbHp8Lh7rtOLH7efLlynUjdwa9MS1sjocePpP4G2SLO+6uYmoTOk/dZDZDQ6R+EkD1XI5ebl6i4yTdBLRQLWhoAFAAADtQWbHynxNBjcC5uzj3B9FMuKLhzX7eu+HtTbnSGLIf0k8gtBDfmO3z4T6toGkYOHPO17InB5cCY9y7vV21rq29O647RtbDXMigne0yFoG+zSSB0m+Bv3XpWnRza1pYwjjjJbNGJGgvoSdJpwHuBt9QvHd8eX+Pd1yYuJxYMZ+HnGaMPEf7xtvPS4t3+LYFxFtJ2pXtWePMwJNLdNj5LY2ul6njqDgN2162dwd1kydKyfDzQ/D82F8twyRPcD0sPJBrY2Ba5/EwHxxlzst73B7JnQui6Hg9R22NHc2SOa4XT/XKbmo7rTpMbPmJzI3xlwDJOncAk7O/Pe/ossGvHRsn97K+KCR1eYx9tIoGm3t71sVQ8Jao05rcfIJ6WQEyvLLb07WB356jXI5VzXoocPN+7ZMMf3WRxMDvxMcSPb8N/la4y3G6d7JlHbaN40wMvoZPkTOZfwyPZ0j/ANrqYcqLK/wZBIyrDwKBC8a03R4Z8Zr8LJkjDz5Z8w/DzYJHJI+i6nw3k52mtZCJYpo3utzg7rY4Dnpd2cK3Hou0+T4+/Thl8by9e3fmgQCbJ7KFux7KlHkQNc1/WWtc0OLmnq+atQzNnYXMeHAHpBHsvXhyzJ4+TiuKJCshbtZKUhdnIlI1aIG6ZAoClUmQPCBCooeUaQKpSJQQIeVLRIUpAhCWk5QpAlKUmIAQQJSiNKIL9pgEgThaYGkQEEQgatkKRUQAbIhSvdEKAqIqIF3U3RCPdRdgN0VAEaQ2lI0oimgtKEAttMRstbrOqx6ZhGSRwa2/r8lLdLjN3TR6nrONJnPM8n/+cfumfwn1cT6+i12q/aDjxs8h+XjsMY6iyIl739q9uQFzmty5H3R2oYMYLZQerzDW29jf/my8/wA/Pjjc5sTWdcxcHTfhdHsCQfcbfReCc3lbX0rw6kddrHi+bMe+MdMbHOBdvZ+foL4XO6vqMeO1mOzIbMwkEvc/qLh29r/0XPu1ECN0Tm9MYFADlxCr9bmSF8hbZFNYTuP9Ek3S9enZ+cfLx4/Nf5cuN09Nlohc0uP622/WlrdX1bFZNOT5j2ZYLAWxhxaB/mOwqvRaaTMcXTF0h6nfhB2t3FX6/wBVQx9WmxzK1zmuY0fGHAAg0R1332Jb9VcMO/JOTOSeLbQaoRjtjzZpXwyOAZG/8IYLpt9gQfzVPWcnFxjJjzukyJHy+d5fmVyAOe10B8gsD4zKyPKMRawt+Bo4oE/1rhXhjyzvxjQiIAHmEX/zYj39+y6WyXbn47mnMZrGtnaY8PJaST5h8zzNvUbX+pXQyaPj6fon7SiDMgTxPicCNienqBv/APV3/AV0uh6BHnsyMN5fivr91KX/AAOAdY6j8x37qxpvhGbTZszQsqQuMkvmRxOIPQ71B9NyLGxUvNNE4Lt57jxtw9Q8uUdOPk/GwEfDI3c9PzPH5L1Twtq33XR3YcmQ+R0b3FhAHmb7Cq4/hBXnmVjT6N9403UMUStY9wgLwQ6wdiCNhxXvZ+ayaNmSfei5zegFpc1vVQBIvpHrx+qnLj5TbXFl43T02CXFzYYhkSxxvyOpzA7Zvdp39Nt/larahpIfE6HJw2SxMaJGdJNU01dn4ve+fRcdFruS7ByZOkTsxnNc7HMQdTSQARwa4XX6frQ1jG0777K+PFZIWRkOFxNcAeo7kkCxt7Fea43F6ZlMulL9lTRnGdiiWNrHFpdZdd8kuvuNgduFZdm5GLhwxZWJIWVbXhoc9o/SwFeZnNdnP0lnTA+CRzXh1XYPHV6dwSs+Hl4k8WXB5LnZLbcQ0gscao16XtfpVhZvftqdemOF+JFitGnZchknHU+JriXcVsw7H123VnSJcrST92nx3Y8uQ0OeHxHplFV0g83xfpa0eLpL8DUJ5n5Qb5Tb6yS0i/hBs7Ai6/suylnHifSMeaOfyclm0dGwXcFpHDtwd9r9lKs/aq/UozmMx4pmxx9Rb0lrmlm3O/1XZ4ji6JjIctwAbVkVR99t/muHwsKLGbFp2YJsfL8vr6XEOZdX8JO/0PYreablZGlxNi/xWseKY+UgNB9/y5/NdeLLwunPmx8puOzZG5kbet3W+qLrsIE2bKw4eZHlNcC+MPH4g1119e6z0O26+ljf0+VlO+wUUpGlpECBR4QQCggdkyBQKUqY8IIFIQpOggQhREpUAcEqYpSgBKihCiC6naVPLLeQiBSrAqUiAiqBumQRQREKAWmpAAFCiBSKgUBGkVKQRRN07KAIABaYClKUds0lBr9Z1WPTIOuQ9LRu51fhb/uSB9V5b4o8VR5vkRQscGA274r6+3/Ctp9pOeZfOEcpbREZaXVQFdvcryzIzXhxd1fhoD2Xj5s7b4vdwcck8m41bW5sXT5GsI8tx6HAX8O5o/qAV59JmxHJm84O6Jm/vG3d9upvuP8AZbrIy5MzHmxSLL29PUdw30IXLZoY5zoJCWytNwvYPhee7fn6f7rjw4zuV35srNVly8yVoa1skYjqg4O3IB/qsH3tpAbXS5u9BYMb7o1r2ZQnlJ36mCqPyKJdjQ9Qi8y3/wD2UTX0Xpkkea23subn9Qa1xN92jgeiGA5wlf0tb+8Ajoi6BIP57fqqroi+RwqxyCtjgsETQ6wencArV1JqMYy5ZdutiY3HgiaY2khtv+Ki8A/1H9lu4svDyNND52tMD9jR3b/pv+hXJ47sh2I1kzCC395fY3uEcfUGwxGKQfDvY9V4csbX0cco7SfWhFpr8SFwjDHfDIW24O2/RazK1SXKmiyXZR/cFxD2ut7T6OHHT8vysrlMrWYnRt8qKUPbsLdZaR79wpouKMuV8ubn5GHjtPGPCZJZSf4GN4J9yaC64cenDPl36dFq3iXF1vTvKzch7ZoT0xyFlmvQ+3oefmtHkHEjgEjpZGGMs6Hg/AXGyB1Dvseyx63Jiz44fj6ccPEgcGFzpOp8hJ5cRtfyFeiqYulszZMSAyyHGyHdLOg38dgONdyNvouuOEkccs7a9D8C+TDktfNJjux8mIx5UBkDnuaTu5o9RQ29lS1mP9n5n3VrwWGQ9D9wOkElljsS07Ecrj/Jz9A1Asex+PLE/wAoj/M2gfqefqury4vvmnQsk/xn07El6q8xo5jvsRe3+4Xnznjlt6sL5YrmsZWLnukzJs0k5DmgkEDgBpNc7000Vc0jMYdTOS933byA0gdXxPaSbA9+mt/mtJBgxvjfiPDWSs3+Pv6V6fP5JdOnkjzHNnxnfud5Hgcjufytc53HW9V3+rPi+4sc4tnLohHFHZHwgi3E1vQ7+p9k3h2Z8eoFnVIyCRpexn4dv4m+lkk73a4p2ux6g0/v2l34ac6j0+ldh8lsdM8QQ6bPHiT/AL0xydfmxuouIPw12of3KWG3ezQHMx8R+YGyOFx+YW0djsCRuNq9rVrVdUjwWSY8s2LJM6Ow5xpwvs6t/rS1mPqjtTxZmxZJjyngvLGN/dvDdnOaBzbSuT1sZWnCT7yMbrLR5b47c6WNw/ECQKG3Yc891cZu9sZXUb/w74rGpa3HjYzz8X7txDdtud+24K9Qww8YzPMeJH/xOHcrxHwdNkNnJyAcUeYHtiFiiRx7n9F7TpORFlYjXwvc4cmxwV6uG/lXk55+Mq3SCchCl63jL2UTUgQikURIUpAjkExFoUgCBRIQKAFKUxQQIQlIWQoUgSlEaKiDo58KhwqMkTmFdXNiAg7LWZWFzssS6WxpACis8uOWk7LCWkHdblY0AFo0oEwVRGolC0VRFFAigATKIgIIoEQpSCBJPbWbEAm6tZGhVtUa52HJ0PDH18Lj2PZKR5r9oORjTzzsMboJDEInsqw8+1fReRTxyRSyMdTt+kttdp9pWvZGGXtyXMdOwimxCm8evK8oGrZDeqVz2l8h6iCbC8WePlenu48pjO17N8yI/u7A7j/ULVZD2OFy9YPHxOFKz+0vO2lhZR4PVVLDHHHlzCNkbi4ntus4y4+3TLKZemtypDI0hrtj37lbLRtEkysUvr4uW2F1On/Z3NkQjInlaxruGBm/5ldjpPh+LFYxrYwAxobZ5NBcuT5Mk1i78Pw7bvN5d+yGxyxuLXBso2J4Brg/VWX+H3sjeQDRF2TVBd1rXgx00bvucrWm+sNJ4PqD/ULVweHdaPTG6IRjjzHEUP1/ssTmtm9u3/x5OtOOzHZGK3obchB3r+ipxxZORI0xwybHu00F6bF4Pijh8okykkuLyN7WNmhDS39csREJ/CeRfv6LU55+mb8W33XGw6O8y26nNq+kCltcLT2u8xosSOb0NkbsY7O+/wCY29V0TsNse0QD21buAB9SpFp3354ZCzzJBv8ADs1nuT/ZT+W1v+DGKudiYWV4WGiPw4/vXV5pyGVt8TaaK9rv12XKY3hjMxi4dLxAXB7QCRTh/E09ivWMHw4IYuqVoL6AFBbWDQ4nxtY9jbP6JebKTUJ8bC915npekT647/rYZJJw/wCJ8r930NiNvxD13BC2Os+F9Sa28nDmm8sdQlg+Jm+/4dqK9Kw/DDp3RvHTbHfC1oXV/c8XIxnweU3rLTXUKu6XLztvbpePGTp87fdcqnSFj4C0C3zG3N+Sv6aZnRTdLGSu6eqSz8Th6+44XSeMtEnxSYLZDI5rvKkrYmwQCPmP1XE42qshkGNqbCyM7SECnRu9Qfz+a1juuWc1VTUIQ2d4jaG7mh07t+vdVYJPKnjfP1lrvhroJINc+ley3moafEC+TSsxmXFVgiQBx/P+nK10V5GREyLHlywAQ+IO+Nu2+3/PmuuOW3HPHXbf+G9fm0gtyC0TY8DzbXTC7N0QO/fj1orf6rkv1vFxn48cLI6JjfLYAjJsgHkUbHsvLzH1ziMtEUbtiX0C5pr3W9OrtxGeXDbGMFWXUSeCKUuM2ky6dnp2a3So53Nnia3pFBgEj6HG/qaBtdh9m+sv1P8AaXQbhZK1xcfcb/0XkenPzNcyYcXEa9uPE6zIGlwc7mrrk0vXfBuiDA02HGaXsxi8Pk6gGvmd7+wpb4sdZ7c+bLeGncNp7QRwdwgW0mFVQIIClL6EfNpKURpAoFJQq0SFEQqUjdOQgQikOyCYtS0ihSBTUlIRNl5UpFAlFKdlEyiI9PfECqk2P1DhbENtI6O1zalc9k4Q3oLWT4xaeF1U8Fg7LWz4l9klNOdcwt7JaWzyMWuyoviLSukrFjEjahClKoITWlRCAhMgEUECKgCYBBAFT1iYY+BK5zSbaQKF70roWLLY6SB7WC3UaB4SrPb5W8b5OTm5EjpZHmQvcSXAA36LhXRiNzSac71K9g+0LwRm4Tc3LeR+7d1ks3HxHkCvf6LyFzfKkd5rgbOx7hebGWe3qysurGNrZpus9LS31vZekfZTobcjLkmkj84Rts2OCvP8aJ/W3yCT1nf3X0F9nejxaT4ZZLJTJZ7e9zv0Xn+VnrHUen4eG8vK/Rs+OLHs7Na3ZrVVhyYWEdb2jvSz5+JLnZDutrui6aGtrb5lY36DIMdzWwxteNwXkuP61/RebDik9vfeW3+sWG6jjljiXM9NxSMOXgPjHVMwG/Xuuez9L1BjQGsEm3ZjQlx9HkdHU2GS/sWEtr6cfounhjftn+TOfTq448aQgRuBPelnkxoTEaaD233XPYmk5eG7zOqQtcdvVvstvjMyA8NfYvkkrlnqO+F2x4vhPC3ndC1xcbquPkFeZgY+KGhjGtPpVLYRmmhrfpXZUNTvoYLPW53S0DkkpJV8oaSaLHFve0V6lVmaxhRSGZ0gbuN65VHNw5ZGgOk6iDfV2HyC0btFnlncXzjpPuus8fuuGdzv9Y67G8VNZOfuzjKGm/haV1EGsYmRC2SSDKie3+Mxk1+VrzfT/DbYZxIcyT1AZ6rsdHjnxyGBxe0fhvcpfHfTH567VfFmPBrcD8VpZMHDqa4HpdG4cHfdcfgeHMbWsiXH1rGjZI0Etl/C135L1qbD++4sYyYWzHfqJ2ofXusWDjaZp8xORIyGK6DpRTQf5bP5j6pcNzonL4/2eO6z9lcnWHYWpzPiAAaZ4hYFcBwNkDjdc/qPhvK0Tommmlnlxx8DgK/MjdfTx0uHUGsniEU0L3BnUxwI/MLlftF8A4TNHdnxsMbw4E1vQ9N1Pyx9pbjlOnzxJlMyJYmahihootMnLXAdnDkn5bn9Vv8AStE8OZmLLqj5cjIYxrXOEbzuT34+EegO2xF2h4gx8TVzHHOxmN5rx0Sg0HOFUSPcVv7Kj4exHCOfDxsp8OTG09McT737uB9+7V3njrbyZXLy09OxPEunaLoUbdNxBLjRydUjHAxuHuLFn52txoOot1OU5GHJJkRMeSG1buki6HbbdeNRapmRwPyNSy8nIniBDmlpDYWgkBnO11+q9F+ysDKlypMeRwjAY8Rk10k3dev+6Y4/l0mWX4dvVQ66FUKBRSx9To2kk8bApl756fPvsHJUxQIVQpCFJqQQKd0tLJSFKBCEKTO9EECkIEInZRBjLUOlOeUECKIlRB6qFChYUtYaI9tqtJFauEWkcxRWpnxwb2Wqycer2XRTMC12RDYOyQaCSKisRFLY5EVFU5GV2XSVixiRBUpQcqoYJgUoRCBgEwQCKAopU4Qcv420F2p6RldEwjD2EuY7drq9fRfJOr6XJjSPDtiNxfovtLVXeVgTdL+kuaWgc8hfJnjl0D9blij8yQsaGvcf5+/6UFyz6u3bj7mqreAtKfq+qsgjAcWMdK5vsCP1pe/6dLFqETYmRmKLD6Wjf8T6/KgP1K8V+y+JmN4g8uW/Kew9dOI29Pfhe2aHidDskNBZG2UANJ3A6G1f0C8HyLPJ9L4uOWv8bBmIwAENBrn3WDLmgxx8crQfQmysGu6qzDhMcQke4Cy2Ldz/AGHp81wjc/PzsiU53n6NjEERsgj63ONfxP5G/ovPhLnXuusZtudU1THjld/iEeojK0rPE+G7I8ts7mkH+MELz/UsDUAzHnbk5uRK4nz2yNeK+t7/AER03H1DHwyZhkPnMhpkjeodHv72vTfjSTcry4fLyyy1cXsGJqJnidH1g9TTR9DWxVnD1GTOxopIiLlsgN5FGtzyeFw+k6jkY2mSy5OO7HLG2CTYdt29F2vg+NzdNikmj6T0NaB6ABccsbp6cLMs9f42zMXIezrPW4N3Ja51/wBVRypwMy/MdK1kPmMLx8TST01ffYfqvQPD+LFMzoLasbiuVw3ifT5NF1nKwns6g+EmBxNAt6gf06j+S3jvUc+TW/XpzmbqLi427pC1TvEeL5/lxtkmcNj0Dg/NWte0/Jggf5ULcmUAUA+mketrlNLhfj5TnaliyGL/AOuI0L/PdX+HdWc2pvW3X4/iSJpDXReU4Hh8jRX6rptM1yMsE/RM1oG7w0PaPclt0vCn+GNUypmvbhzMkMrvMeaIc0nkWV2/gvwR4mi+8PgxskSW3yS2Tpa3m+r9OFu8OOOO9uGPyOTLPVxe7eHs/GzQJGzRzNI5a6wVb8U4GJm6OMZw6POycePqZyLkANfQlcLpvhnxbpcoyZNLf1u/FJjuBD//ADbtv7hdWM12Xm6Xj5DHROjmORIJNgBG01//AE5q5YZ2XVjfLxyzeND/AOM6p4Px49W09zMqHDndPlY1kuyY3BrXkf5g1jaC33ip2P4i8JumwpWy42Qxr43j+IO4P6q9j+IsVzTC4SOcNndDC4Lk36nh+H3Z2mQOd+y825YA9pb90nO5j3/gedx6O27reWcymtuePHlj3p41rmiYkWJLp2c10UjKbC99N6b4O3YH+65iPR34GqecI5C1sZ65C7aR9myPp791vtWzZsvxpLjTAHFyA2I+Z2JBLSDz+KvosWqNl0xs00ZdO5kttdfAO3/B6Utz1pxs725+LAz5o340DHZDs0tLHfFYAdQ3PJ2PqvefAnhmDQsBrG9LpS0Ne9o2J5Neq5X7N8L9o42O7Mia0RvLoxXf/TdepRtjbtG0BjdhXf3Xo4cd9vNzZa6MeOElp0pC9LygoogghS0mUpAqBRIpClAhQTkJCgUlC0SlKCFBRAlApUUKiD1O0UBalLm2NqFQIlVFeUKjONqV+UbKlMLBUVrZo7JVR8NhbGVu6xeXa3Ea10G2ywujIW3dBY4VeXG9k2mlAIp3REHhJVFaTRgUUoTBENSICATIMWXF5kDqALgNr7r5Q+0RzneMMv4BG1rw0tAq3dyV9YZLmxwOleT0xtLjXdfP32qaF+0Mx2qtx48c2etzR+Ie57lefm5McbJb3Xq+PwZ5y5YzqNV9juj/AH7xFn587A6HEjaxgrYvO9/QL10sOPlyV+CZjTf+Zu39CPyXHfY3iMZ4eyJg3p8zIcPnQAXdyx9RAI2BsH0K+fyXedfV4cdcc1/618zALc0V7kKhNkOfbXeW5tVuwLdS9DndIHSSeDt+XqtdlwtuhRHdTwld5/jTZmO3L26GgD+VgC1j9AiDiQyz7LofJtgo7EdlWflNhJYxplk7MZ/c9luTXov+tDqGmHKMGlNcOvIPU8dhGOV22lxf4eMwUxlC1rNK0V8b5NQyN8rIptDhjBw0f1XRafilkzTxRWd+TWM8O3oGgQRGMM4IGxA3tajx5owbHj6z5XmTaa/qk6RZdA7Z/wCWzvoVt9EfQaP4l0XktcR57A5hFEHggrthN46eTly1lt5NqPg2PLlE5Y4tc22ub+FwPB9wtBkfZ+Z5CDHQ/mC9K07EycE5OJjdOThY8pbFA5wbIyM8BhOxA/lNex7KhnahgNnfc3kPafwTAxuH5/2Ut66bl704iHwDO1wDcnymjjqH+i6XTNMk09oZLkukA4Ac7+ytN1iB7d8vFY0ne5W3/VW8PU9O38t/3iQ7dMDDI4/lsuNx263K/dXMI5jiHRXEwd3OP91NF08a/k5Gq5ofI2SosYu/iiad3/JzuPYBWY9MydVj6Mhj8PDI+KFrwZJh6PI2a09wNz6rp8XHY1rWsaGtaKAAoAei7YcfWnj5OTvbHjYMWNEWxRsYPYLWeI9Exda0jLxciFri6N3Q6h1NdWxHva3zqDa2CqyU1ri4Ahdc8dRxwyt7fIzMnI0LxJkM1GQTCSRwAlJ6QwG2lt3TgfeqV7TdRin0nIjlAyJCSx0csYI7kV9Atr4m0bGzdbyHSvJEbnGJrm01lEm/luF0nhT7LNL1iEOl1WaIOILjH0gXXcG/n6LG51t0mFu9fS/4F0mOHTIzI17HH4yL7nsusPtVeyxw6GdBBxvNE7R+CRo2Lf8AVOSvbxSa3HzuW3y1QPKBUO6NLo5FURpSkCqWiRSCCHdImKCBSlKYpSgVK4bpygeFNBEhT0gQgRRMRQUQepKKBGlhraKFGkCgwyqlL3V2RUplFVHCyo1llR2yyRbrSHEW3CV+OCOFajaCFk8sKDTTYvsqMsBaeF0UkAIKoT43skpppS2uVFbmxyCqzmEFblZsEcIpRsmWkY8yHzsOVgP4mleB6/i5c0k+BCySZ4mc4i93DsvoNq888UaBLi647PiIjjMbnXV716L5f/RwsuPJPp+g/wCHzYePJwZ/c3P/AKUPs7wDheF8aFwp4c8uruS4rpnR9Yr0Wv8ACTGjRYaeH/E6yO/xFbfpC8ly7ejDHU1GvliDm0ar3WtysJzLEbXnq5p1ALfCIdVGqWCemDj81vHOunhjfccy/TZCQCwn/wAnkq1i4kcA/eAV6AUrkzwTSrySNY9r3cNIJHspnbl03jMcfUbPDh80uc8dIH4QfRWOnoHW2jXdarxHreZi4XTo2LFkTPHwvkvpH5crF4WyNYytMb+3osaPLcSf+nBDa7WD3XPHPXqmWF96dnoWquEwaT8d3uu1i1ePLqNwa2ttl5WcmXBgkyoYw+Zp6GMcaBJ7n2XF4f2g/aBieIHwahg6a3Ec74HxseLHzsr04clxlu3lz+P/ACZSSPavFwm0rCORi9JHV1yOHcE/1C5H9tnIbbgCR6qzqPio53hyWB5aZ5mhgaNzuRZ+gC5NspxyLuiufJlMvyxd+HDwnjn7dDFmRzSDzIYCR3EY2XQYM/UWhp/djsOD9Fx8L7YHN77ra6dneU4BzuVcbDkx/T0HT5fM+H2W6Y0MbzyuS0vOBHwkhdE3I62Dvsvbx5TT5HPhdrMrhQCqSnqBb6pjITZKxvdTCSs55bTDHTwPXGPyvEk2muZ+5dK7qe5hIbve3vQ291lhhGkt+7xTP+JtkB9LbQTR/t/PZMwP/fkAk7dN2D/os3ijRhkeLYsTBhLWTxRy/wDiCN14fk56xun3f+TxS8u8513d/wDjqMHzG6FgNkd1HpJBPNbKFZHtEbI4Wm2xNDB/dY19X4uFw4scb70/NfO5ZyfIzzx9WhSCZReh5ApBFQoFQRKCAUp0ooIAQkITkpXFAiU7pilKAEUlKJSlBDwolJUUV6mEwQRCwo0gQjaBQV5Qqc3BV2XuqUvdIKrhuniSHlPGN1Rdi4WdoWGHhZmqCFtqvLErdJHMtRWqmx7VGbHO+y3kkSqzQcqyjRui6UvCvywbqs+Kitys2MbStN4wxjkaLK5th7RsR7rdAUseTEMiB8RFhwpZ5cPPC4unx+T+Pkxz/Vec/Z3K52jSwvJL4ch7TfNcrp652XNaFJ9z1zU8aToYOprm9PBsbml1TSH7jceq+DnuV+ixym+mDpABO6o57vhO+y2E46RsaI7rnM/KLnOJe1oB7lZmVdd/Ykb77k7rBkyMYwucaA/RVYcmSYyP6XEfw7LHl4mZkua1oc0ckgLrj/qeX6V5c+OOQeW0gg7FpK2MWsvdC3rsHtXZVI9Kjjove3qGxR8qJnwDIaxvc9N2r4yt65K2jM9uSKfd9r4W5dg6W/TXTZsXnP6T0jqrevZc9j4+CG/vNRYHDbZtro8Eafm47YW5IJFUHCgVrGWVzzxy1trYcfFij6YY2sH6/mqmXH1/FYpdJl+HzBACyUSlxJDwQaJ7HuuY1TGzMFwLfwht79131LHnnKMcxgIaTt2K2GO9rnA3x7rmcjOkkkax8bh1Dlu9FX9LyX9Qsg0vNlj43p6MeTymne6NK4hreWj0HC6/CmJYGnfYLjPD8rntcQKo9l1kL+kChW3BXo471t4eb3psqWv1zIbi6bNIXEUwnbv7K6x/Y9wtB4nyvNxnYzKLnj8J7/8AtbrhPbynHY6XViI2P63vGzd7H9V6fPhNxJxmPbWQ6COFl/wtA3P5lbfT9F07AbHmM06CCfy/3jwOKHK02Xkuy53SOJIOwvsFj4/xd8lzyev5v/R1w48XHNda/wD1hKQpkF9V+fClFLURC3ujaBCCKh5QRUQKoSogUCkoFEoIESlMUrkCoFFK5ADuogopR6qEaShNaw0KBUUKDDILtUpQrkh2VOVBVdynjCV3KeNUW4uFnasEXCztWaRkAQKgKh3RSEWsT477KwQlICDXywhU5YFt5GWq0kV9kGndFSToIWyfAsLoq7LcrNjybXMA6R4lglyHhjclpjH0+IFb7DlcGN7itlZ+0jBJ0vG1AsDhhZLJHGuGnY/Tda/HnicxrYwOkizXz/ovj/J4vC6fd+Nz/wAs3fa2/IZMHBh3XO5UBMzrYA6jRPqt1Azqllc09LS7bbakuRjgyA7Gl5HtjkJdS1bS5R5GnszIv4g11P8AnvsUJfFxmf5QwcsSVuJGhgH6rqjjhrroApnabizkulia4+pG66Y5T7axzk9xxE2o6lIOpmHEGnhrpDf6BUjnaiHEnTGvb6Nm7/ULusnR8cim21a06MyN/UZT09rXbHPH7evHkws9uTizdTll6f2Lk2TQ6HhwK3+mt8RwEGLw9qJbyCOj/VbSKOeFrWxzDpuxS67QtSlZEwSF/V8huusyxrnyckmP1XFO1vXdOc5+dp2fC0DcGOyPfYrT6n9p2PI50D4cieYDZjIXFx+ey9wlx8bVMXpmx4ySKsjcfVcpqPhzHY1wZjsYf5g3dbsmnzsubHK+u3nGkZ8mpwtnyMAxB52a4WW+lrfafhySZUhcNrG9cbcK9NpLMZoDW7grZ6VgNpraqjZK83215T3HQaFhsiiaa3PK3bC9rj/Le3utfB0xtDmGuqhXYK9E4ksB4JXbGajyZ5bu2xa8GMOrjdc7LGJfEGKwFpL5Lc3uasn+y3zyI29XouKg1duT4rkdHIWPxoq/D8O/utsTW/enda0/p0t9GiS0fNcqVeztRky42xk/ADfzKoL38Usnb5vPlLl0B2QKKBC6OIKKKHZAEppFKUBHCCiFoqWgVELQKeUCiSlKICUlMkKBSgSmSlFKooopR6oiAkBTBc2zhByFoFNoxSKpKOVakVSXdVVY7lZI0h2KaM7qouR8LM0UsMfCzNWaRkHChUB2URQUIRpBApCxuYstIEIKzor7LA+K1ecBSxOYCEg02r6YzUtPyMOVjXMmjLCD7heX6PA3DdkYM73nJxHeURL6Dg/kQvZXx2vPvtD0GTEf/wDIcOIyuYGsyYgPxtHDtu4XH5PH549e49PxOb+PPv1VHHeXNs8igi8O6jfFrS6RnnUWl7HlrnfEXE7ew91s3ZDQG9T79x3918bLGyvuY5bjOaJGyJ3CQSskssNj+qjn8C6UaJPZGxGwWlzsgdJbYW2nIe0t4K1GTiiV9DalvHG1dwmmPdI63OHqAum0s9bm06w0LX6LoLJR8NtI3sHcLrsPRIwA6Mm67rtjjXLkyxjZYMgEQvYpZ29TNxv7poI3RuEbh7fNZpIi4kUD7Lt9PJ1tyubhGR5oCu6sYMAY7qN1wQtpkY46qIANb7JIoAD6rnrt08ujfC1rdvdXIXD4ATuRV0qUh6XUGlzgKa0LFm6kImEn4AOCOV0jjU8TeITouC9xIcOk/P6e60nhXDrCdnzBxyMt3mEuFUOwWDCx5vFM8k8jHHFgAc6x8LndQoD9SfouioDYCgOy9nx8ft4vlZakxA7pSmclXqeIKQJUceyHKCWgVFEClKUXIIAgSigUC2gioihSBRpBEKdgkcncUhOyBSlJTJSKQBRBRB6kCm3QDUVydEUKIQKDDIqshVqQKrJ3QVnndNGd0r+UY+VpF2LhZmlYIjss7eFCMgtRAcIlRRQtBRAUCFFEApAi0x3QpBjLVimx2TRuje0OY8EEHghWaQoKo+d/Hkb/AAN4pOJHMf2blBr4WVQhNm2/LlZ2agHMjhAcTLdFoJd09t+3yXYfbD4exdUnxZJ4mOcYiA4jij/uvGMzNn8K6vjQxSGfGadnP5YfR39ivmcsl5LjPb7PDlZxzK+no+LmFsgja3fpsp4c8v2eQCud0/VDJYc4EvZ1mjXWdiRfosT854ymOcPhLRYug21w8HpmTq5ZaAHqsMjqDv8ARUo84ZMgIbuD0j3/ANldb8dXv7eiTp1jf6BkNhcA/YED23XZYDmNPV1Dpd6LzbHyTG5rLc3pdYPrdf6Lp8XWYxG8dTiW7HpC68eWnn5sdutkawO6trQfQ+M/W+Vp8LUm5Dh8bLAoi1ZyMroaACQ08jkrr5SvN46DLla0kOG5PPYrWS6hFFL0E24gkEdx6LDnao1nVGH24jgrl9Q1MYzmATGUyAgRtPU4/L0I+axrtrfTrZdTiwsZ8s0zRQ2F/iWmwsXJ8W5DS4uZixvs9JrqHparYPh/K1J7ZdUeWtArymmwR7/87r0DScSKCFkcLAxgG21LW59M633WV+FDgaN5McTI2toAM4C0RXT6mxx094YC6qJr0XMHZe7gn4vn/Jv5EckLkx3SkbLu8xSbQtFAhBFCgNkCbQQ7oFG1CgUoIlLZQRBRRBEqKB2QI7dKUxSE2gFpXG0XJCVQCVEpNqKUerhNSUJ91ydAQKKBRGGVU5Vck7qnKiqzuU8fKR3KeMbrSLcfCzNWKPhZ2LIYIlBRFRDlEoBAUQgoghUUQtAUQEOUwQcP9psJMWBIOOp7T+QK8v1nSoNRgMcoDWusGxz7L0bx9rMGbkw4MTgXQEvr17LjJWiXZw73S+P8zePLt974U3wyV5jmRZHhjI8iSfzcRxJY/wDibsKB9lmzPEMWSWlpq2g23i//AGur1PAbKXM8qP4TsXtsEehXFal4SyoJnzYThQJuEt+GvUei3hyY5f29s54ZYf19Os02QmpDLcoaBvstw+eU0I29b2H4wPf0Xm0WqaniOZBlYWUwtb+MNLqPsFvNL8Y4uMZW5OQ2Msrpa7v7k9kvHfprHmn26iXWTi4/mC9weBwe30Uw8/JdIHeY7y3bk9X4h/Zc/m+K9My42iadrdrDT6dga3+q1zvF+nhz8eRksrSwtZ5Boev4q2/Jax4qmfNHqsGsMw8duSyQ+W8DqFC2muDXf5rO/wAY48bSZZmvjk2BPIPPHy/ovEna1n5+W/yQI4JDUTnEmvbb0W3wcKeaMeZI6VzD1WbrcbEnglbuMx91wmVy9R1OXq2pa1m9eG0xsDv8Yjcj02O4XX+HdJEIZNOGPnqia7+trnPDOmPx4wZnW7YgNHS0fRdvhR+Wxosgelrllyb6jrjx67rbYjRYAZW9lbvDoNAApabFIsUtzii+6uFZzbXEeRPEAL6jVey0niPRHYMpyYW3jyHt/AfT5Lf6ZGH5HV2jH6lbOWJk0bo5GhzHCiD3C+pwf1fJ+RfzeXlI5bXXdHfpOSQLdA/eN39j7rVOC6uBUEUAEAISlORaVwQBSlAogCFJkCgQoE7IkpCUEtAlRRArikPCYlISgFpSiUCqEIURJUUo9Ua5ZAVUZJazscCFydGRAqAqHdEYJFUlVuRVZUVVdyni5Skbp4+VpFuLhZm8LBHws7FlTjhGkQoUCKIkKIAiEAigBURKCAha3X9RGBgvINOIP0C2JIa0uJoBcV4tzHyRSdO9CwP6Bbxn3Vxm7I8kf4ifmeOJ4n/gETgTf8W1Bbwv3tedMyRh+IWTOFSSyvFnnuu5hyfMaDYXxfmY3y2/QfFs8dLEg8xrh2Io1yFUfgnpHmfvQO10R77K11ehWRpB2PZeOWvTqVq/uEBBtnSwm9t3ErXTaDBOXOkx43G/Qbj6LqHN2IFBYnxAg2AtzOxLhK5d+gYsQ+DHj4o/CD+qQaLA34zE0AjcBtWuhMQG10sMkF7HdbmV/bFwxaXG0qKN9hoAO3TuaH50txpeE2OXkdI36enb9VkZEQK6VdxGdPND3W/K1nxkbfGf0tAYBf8ARbzFf8LbK0OK0D/nK3GM7jtt6qRit7iO+LkrYSZ8OnY7siayG0GtH4nuJoNA9SdloW5kWLGZZpA1jdySh4MfJ4x8Rff3tLdO059QsPD5a3cfWgfzK78WNyymMcOSzHG5X09M0jHkx8JnnV5z/jkr+Y9vpx9FdQAoAIr7EmpqPhW7u6rahgxajivx5Rs4bHu09ivO87DlwsiSCVtPYa+fuvTDytP4j0b9pQCWED7xGNv849FpHBdKWlme3pJBFEchYyoFSuTEpSroKooVFAChaJSlADSRPskOyAIE0iUpQKUhTpSqFSlMUpQIbpRFRKPQIsi+6uRzLncfL9StjBk3W64ujcMeExcqUc/uswkvugd6qy91nc9V5DaQYHFNHyg5NHytIsx8UrDAsEfCsMHCypwoiAoRSCJSmQPqgWlFimyY4RubPoFSfqEspqMBg9e66Y8WWTNykbFzmtFkgKrPqDGCox1n9FRkJsFzyT3WOWTpbTWi+Au2PDjPbPlb6ZZZ3va6SRxIHAXJ66S9sj7sAHZdHkuPliIkWOVotViqCiPhB/RM51qOvF1dvm7X8to8WQsaf8IveR6WaXa6ZlGVjTe1LzXxI12L9oOrtcba2fpb7Cgf7rtdDn6mM32Xxfk47r7Px8tR10EoPurLSButfCRQrdX4Aa3O3ovBcXtmSywWEr20bJWWMeyyFntus6a8lF0e97fKljLOrbe1bkZvXdYy0j5rcjO2AsodIFV6p47sd6Rq6+H5oghptbjNq9A9wI2tXnanFixW+ifTutI7K8sW3larOzvhNk381qRhd1PUszWsmLBwWOknld0Rxjgf7e6908DeH4vD+iY+JGLLG05387uXO+ptef8A2X+EHYzRq2WwnLyW/A08RRk7fU8/JewwxiKNrAKAFL6vxuHwx8r7r5Hzefyvhj6h1FECaXpeAVLUSn8So1+oaHg53U6WAB5/7jNiub1DwjkQNMmI8ZDf5eHf7rteq3Uq0cgbM+iKtWTaPNZI3RvLHtc1w5DhRCxEL0zM07E1BtTwNk963H1XPah4LcbfhS//AKSf2KK5LpUpXMzTcrAdWRA+P3I2P1VQqBXAJCnKRwQKlcmKUqBe6BRKUlUC0CVCgUAKRyYpUClRRyiUblri07K3BkFvKR0BaVjLS1cm24hyrA3Vxk991z0cpYVehyvUqaNtv5qRz7VRs9jlN5t91ZBmu07Fha61niVFqLhWGcLBENlnDmtFuIAU0MgUNAWSAqc+pRxGm7lUJ9RfMSB8I9CuuPBlfbFzkbObLjj72VTnzXSbNNBa58zh/ET7LGwucbJIXox4ccWfK1ZeR1HqNomUAW3nhYg0fRBxvhbtSQ7QXVe6YN6peo7Bm/1Uj23WRo6mgXQIvjlZaUsi3k+vqtbqI8zHfGRvS3MsYs8Ba3Pj6Y+oD4hssZdumN1Xyz48wXweNtQe4bSOa6/oP9FttDl/dtAKzfahjtHjHILDYcxhr+XbhUdLBaG0vjc39rH2OO9Su3w320b2VtYDsLWg06YEi1u8d4XkyxerHJs4HE7HgKw0AA7nfuqUEnuNlZDnf+ljxa8ge0tNmlXeNw6t1ZJJG6wSNo3wFfElYHnubCwSShvFbqxKNvZa/IdQNnhWQY58kgHe1sPBXh0+JdZaZmn7njkSTE8H0b9f6LT4sE+qZkWFjN65ZXdLR/c+y948HeGsHw5pMUHW0kOD5JD/ANx59fTjb2C9fxeHzy3fUeP5fP8Ax46nuuh0jBbjxjbfk/P/ANLZpIW9Lb5ve/VZF9SviIlcNlDsVAb5QRpSWQ4ik7gsTHUC4m+6sAzXdMLqJB7Eeqp47ZH25xNjlWsgCZrR9Vkhj6G7rUuogseGgNJAsbFR7wz4uyqvd0SBp4HCyPcHtO9houlPE2eePzYiQBfNEWCufydC07OJqM40p/ij4P0W0m1JrmhjDVjdV8OdjnhrQbJ5W5j12OW1Pw3m6d1P8vzoR/3Ixf5jstOQvWmbiiKK1Gq+FcDUOqRrfIlP8cfBPuOCuSvOCkK3GreHM7SyXPj8yH/7Y9x9fRagiuUCkJCKWSkHBBjKBTJSgQlKT6JikQS1FFEHay43sqc0Fdlv3w32VOfGu9l55XZonspBri0q/Lj1eyqvjo8LcrFhmTELMyb3VRPGTdbrURsYpLV+Cy0u7DuqWLCWjrePkE8snWaGw9F2x4be6xc1p+oBmzBfuqk2Q+Q29x+Sxud08JRbjZXfHjxx9M22jZdxsECKT3vSlLWzTDW6yMFlHp6tlHUxtBW00jnAI0DVLDZJ34VhnxLm0JNNr1VqBokx2UN6P9VVeCRSzxSGBsR7Bp6vlaxnddrJtjnaWC3dlwX2hfaDpnhAMw3B+fq2TQxtOx95ZHHi6/CL7n6LsdcxczXNOlg03UXaaZG03LjjD5GG96a7YfNcp4L+yvSvCEkubI6TU9WmcXS6jl/FKb7N/l+m5W5rW2e9vPPGHgjNHhvF17NYP2tfm6iGbtt5uh7M2b8guS0+MhfR+o4EWbiz4UzeqKZhjd8iF4NJpT9Nz58OSy6CQxn6FfN+Vx6vl+31ficnlj4/pYwQQQt5G6m8lavFiograwtPpa+dnHuxqzBJRAKvxvBrZazpN21XoiQPf0WZK1as96tLKz3UaeO6Y0R/ZSxYqzUAfZabMk3Pa1t8gijQW++z/wANQ6pmzZ2QwPZAWhjHDYu5/Rb4uO8mUxjPLyTjxuVbnwP4Mw8GPH1SSKWPLkhDXMlN9N8kDte30+q7HV8yKGBmLCWl99UlDYegWLJnEAMcY+Lu70+S02RJZIC+14zDHxxfCyzvJl5ZN3o2vOxpWwZDw6Fxof5P9l1THNe3qY4OB7hec4zeuSzwFvMPWJMJ4H4mnkKS/tnLH9Or5QOwVTC1GDNYAx4D+7TyrTyenYWtRgryekkb7Ks9pbE4b/hWcuAhc6yKHdIGlzDZvhWIeJvwN+Sdx6Rsps1oWDJm8pt90nasWS9tOLtiFRkme4dLCQPZF8he82d0nUGAnhdpNMsUw8ppB3J5KtaTD1OBrjda6SYzSho3W/0+IMjG3Kmd1Fi2/Zu3YrG3Ia74TYPfZGdxDTRVFj3ebfZcscdwWh8fG7TtR7rQ6z4Pxs3qlw+nGn5LP4Hf6LfSNIjDo6Dwb+axxSOlJc78Q7K62PMM3ByMCYw5MTo3jse/y9VWK9YyMfF1KIx5OOyRg7PF18itTk+CdLmB6GSQk8Fj7r6FZ0POiEq2+uaBkaJNUn7yF34JQNnex9CtO5FAhYzynKQqAE0ooSog9TLQVgkjvsrKUtted2ayeDbhUJYFu5Y7VSWH2TatK6Ak0BZKuYuG2MixbjyswYGE7C1mxwA4k9gvZxYam64Z39JICGlYXClZlIAFLG8Arv5MaVC2jZUB3WZ7bCxVR7rSGY1PVBCPdORsstMfHzWGQ772E7nb2kPxElS9rIaMLOwLDGKKzDcIILc6h3S5zixr2gjZtbLJF8EjXVdFY5m+Ya7Fcs2sWwEX7iMAUOgbemywObStsf5mHH/MPhJ9aWF4pax7jNa+SEO39CvK/tD0kYfiFuS2M+XmR9dgbdTdj/ZetvHxG+65T7RtN+8aIzKaPixZA+/8p2P9lz+Th5cdej4mfjyT/XmsMPw0LWwhj6A039CkjLLAF332VsAOH4fqvjWPssbWlx6hRCzMfwa2WNoay97A7LNG+OiTWw3HoojKCKsWo5wIJ7rA+QNdfWSPQJXT3Y42WMo6YsGQ9xPK9m8CYccfg/Dna0xEsc59iiTZs/Ved+EvDbtay2z5Ed4kZrf/ALjvT5eq9X1GVuDhx4MWwDRdei9/wuKz86+d8/lxuuONHmzfE7p5JVIMLj7lWJWlzrWfGx/i63Djhe/W6+fvUYmRiJoaBv3TBlm1ncy3Iti2S4JMisPRRbYI7hXMbWsjFfT3GRv8rlXLKCx+US61nwq+Ub+HVosoFrmObf8ARXonMdFbDYtaDEiIJcNqV/FeWFwsi9z6LWqzdfTYSyBkZc47BarLy/MOx+SfMyuoUOAtdvI+10wx12zVkbDqPKqZORZq0003Q3lU2EyP6j67LcguYcdHr7ldDiPDmCt6XOl5YABtS2Gm5vS8MceeFzzittMLYqbD0uKuucHt+aoZbhA32WMP0VllyBG2r3q0McGQ3VWqGOH5c2/C3UbBGygrl10QQA0bqW4107AdkLJO+yV0o4H/ALWNA5EEGVE6GdjZI3ctcLC5HW/AjXNdNpb9xuYHnn/xP9iuudYaHjnuPVEU4dQ29kHjk0MmPI6KVjo3tNFrhRBWAr07xN4bbrUImiDW5cYprjt1j0K82yYJMeZ0UzHMew05rhRBUVXKiJUUHqyiAKK87uR4tVckhjfcq2VrciXzJTXA2C6cePlkzldRiIWaAHfa1hWeCukgle1xDIuhxaQ7sBTz0A1I3diBCNlicwrMUpFrW0KzlM5RraCUndKRhk9FG1SZ4+JRrVIGa2k/A2Qa0IkJVSyN0W0XWlPoizlYs2sra4bGyYfw8scQR80kjQdu6wYOT93yQ15/dyDpd7ehVmcbmkx/SZKUjaO6qapiDO07IxXAESxub+YWxLQ67WJ7aNLpZLNMy6u3gzJZPKpzCHglu44N0rP3lwpjm7/0V/xNp8mneIM6FmzHSeYwezvi/wBVrupwk6gLLjwdxVclfC5MfG2Pv4ZeUlZWPG5Ozj6lMJAz921wDi7kDZYJP3YpzQb3G+3/AKSOAfH5jmt+Hg+6510iw2VzX+VRJO4I3A9lsdH0p+s50eEw117vd/K0cladskjXteI7/mN7L1TwToh0nAORkx1l5HxEfyN7D+5XTg4f5M9fTn8jm/iw39um0fDgwGRtYzogxmfC3+n1JWDLmdPI6Rx3cVmnkLYms7u+I+/oqZJJK+zJp8K3fskcZkfSvlgYzYJcaLpbZHKd7rWpEYiwcohvZMQl9tlUGtt1Gtt23CB+YWSOqs89k0LbS2OK+6wiay7eh/VJJIaWMPIV0Gkfe1pRsEvdJK/pbS1pFfKl6nVabGFkD0VdxLnX7q7iMofqpVjJPsBSWN3SQ4dkMh26VjvhWclx9N1Dl20WdvVVs/KbO8MaqoyHBlLLgQnIyG3xyVNSdjbabB5MNnlyzvPmfgINdihK/wAttAGvUdlgfI1rBI02fT1K5a32rK+XqIZRH83t7LHIbc0N7LCZTGOm7e7kp4dhR5V8dC211t5TNoLADvysrSs2DLVrR+JPDUWtQl7AGZbB8D/5vYrdgpuVlXimVBJizPhmYWSMPS5p5BUXonjDw0NUg+947P8AqohuB/3G+nzCiC3aiFoheV3YMyXyotuXbBa8DdZ8uTzJfYbBYXbC17OLHUccruodnLNBQuwsR+IBZcc87Wuu+mak4BG3ZY4zbaWeQWxYGf3VCnYoclF43KgCsQCVjvcrI7ZY79UCPFnYpmjZRjbKcrURBypRtECkbWWiHlM1QgFRuxUoSbdW8LJMwET76mjY+oVOZIx5ie2Rp3Btc96u2tbjbOb0mlhe2wQs8cjZ4w4D6eiQt9Qu0u3KvMPtaw/u7cPV2tdYJgk6fzB/quNxcjpAe0O4s8cdl614+0v9p+G86CvibGZGezm7j+4+q8Pxs18w6nBpaBQ9AOP+ei+b8zDWe/2+p8Pk3hr9N4ZWyM6mRm5LaK3oLG7K6T0BoLemvh2J+SWGQCItYGgsNACya7q9pWkTa/nQYeN8L3OtxG/Q3ufovF423Ue25STdbrwLpJ1bUWyzw9MOLT3hxsF38I/v8gvVv8Pd4s1dLDpOk42l4kcUEQjiYKA7vP8AMfVSaQveTdglfW4OL+PHT4/PzXly2V8he8uJtNE3qddbBBreoiqWZrapoXdwZwab2tYyVC/b3WO91UO4hLtdoFBvCodMNgkHKL3bUFUR5spLIQJB9UQFQ1+qrzG1mdsFXkO6qMQFmgtjC0BtqnEwdVq6T0Rgeyz9rfTBMQbSMUfuSozlTKNYn52W70mHyoDKeStPG3qd8yuh/wACBjGjgbrnl+lY3yF5Lo5KI7FUsjIL5aAAcNtvVNkZDekks6XDv6qmD0j3PJWsYiwJAwbHqd3VmNxrfkrXxH4wfRWmy0a9d0sF1hsLM1V4B3JWbrXKqzNKcFYWm1kbssqci1FBuosjQhLM/wAuMnvwEQbVbKf1O6BwFw45uu1uorD4r9VD+H5IWWuT1bSvb6cSMPb1WbH2Ltlg2BVjHO591b0hpPwfNV2us0s8xPCwgLX0I7lAJqR7Usqxu3KxuFFZXBCl0jNKNkSEeUCVQLtStlEa4WVKUQKJKPTSlJQHgVuFgIAVkiwq72ndYs2srPjT+UbP4TyFeJDgCOFqWk+vCvYcts8t30UwurqmU+y5kXnROYeHCivmbUGPxDl6e8FpjlfGQBxRrb5+q+oHjqaQvn77RdKGmeLMyg0edU7aO4aeT8rBXL5eO8ZXf4mWsrGq02fywyw0PY0B7Dw7bkfRe3/Zl4bbh6P+1J2kPyh1C/5OwHz5K8r+zrw2/wAX67Di3I2GD95O9raHlg7gfPhfRUvRExkETQ1kYoNHAXD43H35V2+Vy9eEV8l9RuN8Ba5lnc8K7mEGP3JVZoHde+R4NmYA0bBEHewgbRBq7CsAc4Jb7lFwBKUnelUHq3pEHsk+SZuxVDrGXJiUiqCOUwCVvO6N0hUe5YHblZHn1WNot1KpGaFnxBZZnBSIUCSsUxu1IrCXWTSMZ3S9NfVPGPiCzk1F7Aj8zJjFbXZW1nkLmlwrdUcAdHmyfysP6rJLJ8I2K563SqmU/qcATxuVia4cu4Svfbi71KXq7LoMvm77cK3hx9ZDjwCqMMZkcBW62b3txYg0UHEKUZ5JBHs07poT1CytfHIXnqKuwvFrFmoLbSsjViYnad1yqxlaeyiUFRTStET0tJ9FQBLnEnkq1kOqOr5VUeoWeHHrbeV7LI3vSkTq27LI742rALaaXedxn7GQU6/RZMc3IK7hB4sX2WOP91K3u0n8k3uGu1iX8SxDnZZpQsIBBWp6ZMoigVFCtkpTpSFvGs2BSlI2ByoN1QPREEBDf0tEKKBIRaBylIPZM0nulEJFlY3NvdO40UvKgxOFWgyQggDZZHAUq7gQTSzlFlbWOUSsDu/B+a8e/wDyA0l8TNJ1yGx5chxpSOaPxN/UH816thPJcW+o/VLqWgYPiSGLE1FnmY7J453NvkscHAfmK+RUv5Y6q43wy3FD7KvDjvDXhSGfMjazUc8CaYAbtB/C36Dc+5K6cm3ErJLJ5shdt8gFhvn3VwxmM1GM8rld1gyK62g9t1irdNOeqU+yQOWyCON1HbIWlc6zv/RWFTqQKNKFVEHsjsN7S/JG0gJ7JSiSk3VqGs9wiBaARuhsgxSoxDdR3xFZIWDqFpSM10wLDIbKzSUK2WBxBSDE4p4B8QWKTjlZ8fkFYyajZwuEeHKbovc1qxZEjmxk9V7UsUspbFG2rt919EuQ/wCFo4vdSRGB2x2TMbe5SCyVZgYCbJ+Fu5KrTPCBBF5rhv2CqvkdK8ucd0s+S6Z+2zRsAoz1KSIsMf0tVjCk6391QLiTQWz06HpHV6pl6Gwb8IUDkjndk4G3K4KytUSxm2qKK53J/CFhG42ViRvUFXqjSuE/Bq3tGmuUj2dW4Td0oJYeLHdal/SUIngHpPdY5SY3V2PCdzQ74mpZAJovfulItX1xtPssdb7KY5Lsdl7kClCVrH0zfYlAInhAKNJSDtlCeFCLC1Eri/tU8aTeCvDEubhQunzybiYGlzWtBHU9/wDlAIHzIXUabqMOqYMOZjvY5ksbX/A8OAsA1Y9LXD/bqM4/Z5nRaexz5ZnMD2t5MTbfJ9Olln2C0f8A+OGhZuk+FM/Jyy+MZeX8ELnfhDGgE12JJ/QLrr8due75aevhS/ZKD8lK72sNjaHdRTlBOUaoIVaH6IAR8KxvbsbWU8JH8H1QTDIbKKFWFuMZjGte43biKWmhBEgIHK3LAQwNJ2WddlrJJQGyxHdGT0CxvPSwnvS0wqyOsuPqUGpfQKHYI1Ee6ipdpDaIOyoYFEpQQpdIhgohfuiCkEKRPXKHCqJfslJ2R47IEqgNG6sRihd7rA0WaVgCgptaSV1kC0lbIuNm1FUV3jdZ4BTVieLKzR7NAWa1DSkl0IuuShMSXj2CWYkTxDtRKjz1PpZoIqlJZKaI2mu5Qc4NBd6cLE0WbPKKcHpTi3JKNo9dCgr6RYx2dThQW2iHRGLG612nn496V0ydffYLOXYztPUeVkfIAw1yqgmJPS30TPceLWdKuYxJYojjimBRc6saJxorFIO4WSTcLGH3sVqdL7Yrs+6BHUmewHjlY+ujTtlf9h76IbY47qNeDdcnkJ5G9Q+apyF0RuiR7Jf3Bdxnfu3NHYolV8LID3Ftg2FaKuNMoW9lESo3cqWrAKINN3UcEliqViVovGegyeINGdi47yyYuDWuvhrvhf8A/wAFx+YCv6Pp/wCzsBuORGHdb3u6BsS55P8AcK7yfkiSum+tMa72FceqKUFFFQhC+nkJgduUDuUADr9Uas87obDsjsECusJHXSdxtYnkcFBlwQZchjTuAbW5e0VsCVrdKZczj6NWwJ6bDndIcKs8X7rF6iUruphAdVnijYVfJdTB7lZ5Ok0GlrhfVbeFXyn0wD3Vm6jBYQJQDid0rj2WmkJ3T9kodYO6l2NighNKbFCifRFuyoYe6IcO6XkqFEpwVCEoNKAnqVSiT6JFDsoNylpDxjdZXGmpYu1BF5sKQrEeTaJOyh4UKKQ7lZBtSUDfdOOVKMMzurKbvw1HquR3ssEsn/WuF8ALJ1hoc4nkrFvayGdbnADgJuFjiN7lM92991QHSJogTuUrWdRViOPeuysFnEZXxHYJpMkE9DOB3VebJ26GbNH6rE11bppF6CVsZsn2VmI+bI1w4K1guRwAW2wo/KiBPKZdC6D0sACixdfVvai5aVpZRQscFYL3UUVna/ZS4tPsgel+yiiXpZ2XeP8AzNWGUfD1N3CiiWavRKqMDW5LJY3UQdx6hba9lFFjfbVI4qNKiioLid0pAUUVxShSUmuFFF0jIj5KdQUUWkHYhQigooglWlO2yiiggHdYZRZCiiov6QP8Q36LYEtIIO9qKLMZrFQAoClVyzTmhRRahFYn0SO7bKKLMaFp2ThRRaEoIAi1FEBtQuUUVRAUzVFEAcN0GqKKfYsMIr3SPcFFFqIxucEC75qKLLRmnZNdbqKKRGqlk/66UXVED9FmJMkjWA7DlRRY+2p6Z3EMFIM3+aiiosMbSkstDpbt6qKKoxtKyjfnhRRbiVaxWdTxS2XWA2gooudu6RAQGk9uVFFEkV//2Q==" alt="Portrait d'Ewan de Kersauson"></div>
+        <svg class="pill" aria-hidden="true"><use href="#i-pill"/></svg>
+      </div>
+    </div>
+
+    <div class="plot-wrap">
+      <p class="plot-title">Une courbe dose-réponse, appliquée à mon parcours</p>
+      <div class="plot">
+        <svg viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true">
+          <path class="now" d="M0.0,300.0 L10.0,300.0 L20.0,300.0 L30.0,299.9 L40.0,299.8 L50.0,299.6 L60.0,299.3 L70.0,299.0 L80.0,298.5 L90.0,297.8 L100.0,297.0 L110.0,296.0 L120.0,294.9 L130.0,293.5 L140.0,292.0 L150.0,290.2 L160.0,288.2 L170.0,285.9 L180.0,283.5 L190.0,280.7 L200.0,277.8 L210.0,274.6 L220.0,271.2 L230.0,267.6 L240.0,263.8 L250.0,259.7 L260.0,255.5 L270.0,251.2 L280.0,246.6 L290.0,241.9 L300.0,237.1 L310.0,232.2 L320.0,227.3 L330.0,222.2 L340.0,217.1 L350.0,212.0 L360.0,206.9 L370.0,201.8 L380.0,196.6 L390.0,191.6 L400.0,186.5 L410.0,181.6 L420.0,176.7 L430.0,171.9 L440.0,167.1 L450.0,162.5 L460.0,158.0 L470.0,153.5 L480.0,149.2 L490.0,145.0 L500.0,140.9 L510.0,137.0 L520.0,133.1 L530.0,129.4 L540.0,125.8 L550.0,122.3 L560.0,118.9 L570.0,115.7 L580.0,112.5 L590.0,109.5 L600.0,106.6 L610.0,103.8 L620.0,101.1 L630.0,98.5 L640.0,95.9 L650.0,93.5 L660.0,91.2 L670.0,88.9 L680.0,86.8 L690.0,84.7 L700.0,82.7 L710.0,80.8 L720.0,79.0 L730.0,77.2 L740.0,75.5"/>
+          <path class="future" d="M740.0,75.5 L750.0,73.8 L760.0,72.3 L770.0,70.8 L780.0,69.3 L790.0,67.9 L800.0,66.5 L810.0,65.3 L820.0,64.0 L830.0,62.8 L840.0,61.6 L850.0,60.5 L860.0,59.5 L870.0,58.4 L880.0,57.4 L890.0,56.5 L900.0,55.6 L910.0,54.7 L920.0,53.8 L930.0,53.0 L940.0,52.2 L950.0,51.4 L960.0,50.7 L970.0,50.0 L980.0,49.3 L990.0,48.6 L1000.0,48.0"/>
+        </svg>
+        <a class="pt" href="#deust" style="--x:14.00%;--y:97.32%;--d:0.59s"><i></i><span>DEUST<small>sept. 2023</small></span></a>
+        <a class="pt" href="#l3" style="--x:54.00%;--y:41.94%;--d:1.43s"><i></i><span>Licence 3<small>sept. 2025</small></span></a>
+        <a class="pt current" href="#m1" style="--x:74.00%;--y:25.16%;--d:1.85s"><i></i><span>Master 1<small>sept. 2026, en cours</small></span></a>
+      </div>
+      <div class="ticks" aria-hidden="true"><b style="left:0%;transform:none">2023</b><b style="left:20%">2024</b><b style="left:40%">2025</b><b style="left:60%">2026</b><b style="left:80%">2027</b><b style="left:100%;transform:translateX(-100%)">2028</b></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+
+<section class="sec" id="apropos">
+  <h2>À propos</h2>
+  <div class="sec-body about-grid">
+    <div>
+    <p>Je suis actuellement en Master 1 Ingénierie de la Santé, parcours Médicaments et Produits de Santé (MPS) NewDEAL, à Aix-Marseille Université. J'y étudie la conception et le développement des produits de santé de demain.</p>
+    <p>Après un DEUST et une Licence 3 en pharmacie hospitalière, effectués en alternance à l'Hôpital d'instruction des armées Sainte-Anne de Toulon, j'ai acquis une solide culture du circuit du médicament, de la qualité et de la sécurité des soins.</p>
+    <p>Je suis toujours heureux d'échanger avec des professionnels des produits de santé et de l'innovation thérapeutique.</p>
+    <dl class="facts">
+      <dt>Formation</dt><dd>Master Ingénierie de la Santé</dd>
+      <dt>Parcours</dt><dd>MPS, NewDEAL (Innovative Diagnostic and Therapeutic Drugs and Health Products)</dd>
+      <dt>Lieu</dt><dd>Marseille, France</dd>
+      <dt>Langues</dt><dd>Français, anglais, italien</dd>
+    </dl>
+    </div>
+    <div class="about-ill">
+      <svg viewBox="0 0 320 230" role="img" aria-label="Illustration : fiole, tubes à essai et plaquette de comprimés">
+        <rect x="14" y="120" width="18" height="86" rx="9" fill="#fff" stroke="#0F5E4D" stroke-width="3"/><rect x="17" y="150" width="12" height="54" rx="6" fill="#8FD0BA"/><rect x="40" y="120" width="18" height="86" rx="9" fill="#fff" stroke="#0F5E4D" stroke-width="3"/><rect x="43" y="138" width="12" height="66" rx="6" fill="#D9902B"/><rect x="66" y="120" width="18" height="86" rx="9" fill="#fff" stroke="#0F5E4D" stroke-width="3"/><rect x="69" y="160" width="12" height="44" rx="6" fill="#8FD0BA"/>
+        <rect x="6" y="152" width="84" height="7" rx="3.5" fill="#0F5E4D"/>
+        <rect x="6" y="204" width="84" height="9" rx="4" fill="#0B2239"/>
+        <path d="M132 39 V92 L88 174 C80 190 90 204 108 204 H192 C210 204 220 190 212 174 L168 92 V39 Z" fill="#fff"/>
+        <path d="M101 150 H199 L212 174 C220 190 210 204 192 204 H108 C90 204 80 190 88 174 Z" fill="#8FD0BA"/>
+        <path d="M132 39 V92 L88 174 C80 190 90 204 108 204 H192 C210 204 220 190 212 174 L168 92 V39 Z" fill="none" stroke="#0F5E4D" stroke-width="3.5" stroke-linejoin="round"/>
+        <rect x="124" y="30" width="52" height="10" rx="4" fill="#0F5E4D"/>
+        <circle cx="130" cy="178" r="6" fill="#fff" fill-opacity=".85"/><circle cx="160" cy="168" r="4" fill="#fff" fill-opacity=".85"/>
+        <circle cx="174" cy="188" r="5" fill="#fff" fill-opacity=".85"/><circle cx="146" cy="192" r="3" fill="#fff" fill-opacity=".85"/>
+        <circle cx="150" cy="118" r="5" fill="#fff" stroke="#0F5E4D" stroke-width="2"/><circle cx="153" cy="96" r="3.5" fill="#fff" stroke="#0F5E4D" stroke-width="2"/>
+        <rect x="222" y="148" width="88" height="62" rx="9" fill="#fff" stroke="#0F5E4D" stroke-width="3"/>
+        <circle cx="244" cy="170" r="10" fill="#D6EBE4" stroke="#0F5E4D" stroke-width="2.5"/><circle cx="244" cy="170" r="4.5" fill="#D9902B"/><circle cx="268" cy="170" r="10" fill="#D6EBE4" stroke="#0F5E4D" stroke-width="2.5"/><circle cx="268" cy="170" r="4.5" fill="#D9902B"/><circle cx="292" cy="170" r="10" fill="#D6EBE4" stroke="#0F5E4D" stroke-width="2.5"/><circle cx="244" cy="194" r="10" fill="#D6EBE4" stroke="#0F5E4D" stroke-width="2.5"/><circle cx="268" cy="194" r="10" fill="#D6EBE4" stroke="#0F5E4D" stroke-width="2.5"/><circle cx="268" cy="194" r="4.5" fill="#D9902B"/><circle cx="292" cy="194" r="10" fill="#D6EBE4" stroke="#0F5E4D" stroke-width="2.5"/><circle cx="292" cy="194" r="4.5" fill="#D9902B"/>
+        <polygon points="270.0,48.0 290.8,60.0 290.8,84.0 270.0,96.0 249.2,84.0 249.2,60.0" fill="#D6EBE4" stroke="#0F5E4D" stroke-width="2.5" stroke-linejoin="round"/>
+        <line x1="290.8" y1="60" x2="304" y2="44" stroke="#0F5E4D" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="270" cy="48" r="3.5" fill="#0F5E4D"/><circle cx="290.8" cy="60" r="3.5" fill="#0F5E4D"/><circle cx="290.8" cy="84" r="3.5" fill="#0F5E4D"/>
+        <circle cx="270" cy="96" r="3.5" fill="#D9902B"/><circle cx="249.2" cy="84" r="3.5" fill="#0F5E4D"/><circle cx="249.2" cy="60" r="3.5" fill="#0F5E4D"/>
+        <circle cx="306" cy="40" r="5" fill="#D9902B"/>
+        <path d="M205 50h10M210 45v10 M20 86h10M25 81v10 M300 124h10M305 119v10" stroke="#D9902B" stroke-width="3" stroke-linecap="round"/>
+        <line x1="0" y1="214" x2="320" y2="214" stroke="#CBDAD5" stroke-width="2"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="parcours">
+  <h2>Parcours</h2>
+  <div class="sec-body">
+
+    <article class="row" id="m1">
+      <div class="datecol"><div class="when">2026<br>en cours</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-molecule"/></svg></div></div>
+      <div>
+        <h3>Master 1 Ingénierie de la Santé<span class="tagline">NewDEAL</span></h3>
+        <p class="where">Médicaments et Produits de Santé (MPS), Aix-Marseille Université, UFR de Pharmacie</p>
+        <p>Concevoir et développer des médicaments et produits de santé, comprendre les mécanismes biologiques des maladies et l'action des médicaments, communiquer et gérer des projets.</p>
+        <details>
+          <summary>Voir les enseignements (maquette 2025-2026)</summary>
+          <h4>Semestre 1</h4>
+          <ul>
+            <li>Médicaments : aspects chimiques et galéniques</li>
+            <li>Innovations thérapeutiques et biothérapie</li>
+            <li>ADME et devenir du médicament dans l'organisme</li>
+            <li>Pharmacologie et pharmacothérapeutique</li>
+            <li>Bases de pharmacochimie et pharmacognosie</li>
+            <li>Sciences de l'ingénieur appliquées aux risques</li>
+          </ul>
+          <h4>Semestre 2</h4>
+          <ul>
+            <li>Pharmacochimie et pharmacotechnie</li>
+            <li>Solutions numériques pour les sciences pharmaceutiques</li>
+            <li>Pharmacologie expérimentale et clinique</li>
+            <li>Toxicologie environnementale et humaine</li>
+            <li>Stage d'initiation à la recherche (8 semaines)</li>
+          </ul>
+          <h4>Tout au long de l'année</h4>
+          <ul>
+            <li>Communication, anglais, projet tuteuré et professionnalisme</li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <article class="row" id="l3">
+      <div class="datecol"><div class="when">2025<br>2026</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-hospital"/></svg></div></div>
+      <div>
+        <h3>Diplôme d'État en pharmacie hospitalière<span class="tagline">Niveau 6</span></h3>
+        <p class="where">Licence 3, CFPPH IRFSS Houphouët Boigny, Aix-Marseille Université (RNCP 39707)</p>
+        <p>Exercice en pharmacie à usage intérieur, sous l'autorité du pharmacien : gestion, approvisionnement, délivrance, préparations stériles, radiopharmaceutiques et cytotoxiques. Le diplôme est reconnu au grade de licence.</p>
+        <details>
+          <summary>Voir les compétences attestées</summary>
+          <ul>
+            <li>Délivrance des produits de santé après analyse des ordonnances</li>
+            <li>Bilans médicamenteux et conciliation médicamenteuse (ville-hôpital-ville)</li>
+            <li>Entretiens de prévention et actions d'éducation thérapeutique</li>
+            <li>Préparations en PUI et préparations radiopharmaceutiques, dans le respect de la radioprotection</li>
+            <li>Analyses de contrôle qualité : physico-chimiques, biologiques, microbiologiques, radioactivité</li>
+            <li>Dispositifs médicaux stériles : traçabilité, stérilisation et contrôle de l'environnement</li>
+            <li>Gestion des flux et des stocks, y compris dans les unités de soins</li>
+            <li>Analyse de données scientifiques, amélioration continue de la qualité</li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <article class="row" id="deust">
+      <div class="datecol"><div class="when">2023<br>2025</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-mortar"/></svg></div></div>
+      <div>
+        <h3>DEUST Technicien en pharmacie<span class="tagline">Niveau 5</span></h3>
+        <p class="where">CFA de la Pharmacie du Var, Aix-Marseille Université (RNCP 35719)</p>
+        <p>Diplôme national à visée d'insertion professionnelle, centré sur la dispensation, la qualité et les préparations.</p>
+        <details>
+          <summary>Voir les compétences attestées</summary>
+          <ul>
+            <li>Analyse des ordonnances, dispensation et conseil aux patients</li>
+            <li>Dispositifs médicaux : analyse et délivrance</li>
+            <li>Préparations magistrales, reconstitution, conditionnement et contrôle qualité</li>
+            <li>Gestion des flux et des stocks de produits pharmaceutiques</li>
+            <li>Assurance qualité des opérations pharmaceutiques</li>
+            <li>Traitement de l'information médicale et scientifique, sources réglementaires</li>
+            <li>Éthique, déontologie, travail en équipe et en autonomie</li>
+          </ul>
+        </details>
+      </div>
+    </article>
+
+    <article class="row">
+      <div class="datecol"><div class="when">Avant</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-atom"/></svg></div></div>
+      <div>
+        <h3>Baccalauréat général</h3>
+        <p class="where">Lycée du Coudon, Physique-Chimie et Sciences de la vie et de la Terre</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="sec" id="experience">
+  <h2>Expérience</h2>
+  <div class="sec-body">
+    <article class="row">
+      <div class="datecol"><div class="when">Juin<br>2026</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-jar"/></svg></div></div>
+      <div>
+        <h3>Stage de pré-professionnalisation</h3>
+        <p class="where">Hôpital San Salvadour, Hyères, 2 semaines</p>
+        <p>Participation à l'ensemble des tâches de la pharmacie à usage intérieur, avec la réalisation de préparations magistrales.</p>
+      </div>
+    </article>
+    <article class="row">
+      <div class="datecol"><div class="when">2023<br>2026</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-hospital"/></svg></div></div>
+      <div>
+        <h3>Pharmacie hospitalière, en alternance</h3>
+        <p class="where">Hôpital d'instruction des armées Sainte-Anne, Toulon, 2 ans et 11 mois</p>
+        <p>Trois années au sein de la pharmacie à usage intérieur (PUI) d'un hôpital militaire.</p>
+        <ul class="list2">
+          <li>Dispensation et sécurisation du circuit du médicament</li>
+          <li>Préparations pharmaceutiques stériles</li>
+          <li>Gestion et optimisation des stocks et des traçabilités</li>
+          <li>Collaboration avec les équipes hospitalières</li>
+          <li>Délivrance et contrôle des prescriptions sous la responsabilité du pharmacien</li>
+          <li>Participation aux tâches liées à la certification de l'établissement</li>
+        </ul>
+        <h4 class="sub">Compétences en pharmacie hospitalière</h4>
+        <ul class="list2">
+          <li>Analyse d'ordonnances et délivrance sécurisée</li>
+          <li>Préparations stériles</li>
+          <li>Chimiothérapies et radiopharmacie</li>
+          <li>Stérilisation des dispositifs médicaux</li>
+          <li>Traçabilité des dispositifs médicaux</li>
+          <li>Gestion des stocks et approvisionnement</li>
+          <li>Hygiène, sécurité et radioprotection</li>
+          <li>Contrôle qualité</li>
+          <li>Amélioration continue et gestion des risques</li>
+          <li>Transmission d'informations aux équipes de soins</li>
+          <li>Accueil et accompagnement des nouveaux arrivants</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="sec" id="projets">
+  <h2>Projets et formations complémentaires</h2>
+  <div class="sec-body">
+    <article class="row">
+      <div class="datecol"><div class="when">2025<br>2026</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-syringe"/></svg></div></div>
+      <div>
+        <h3>Service sanitaire : prévention des risques AES et AEV</h3>
+        <p class="where">Réalisé pendant ma formation en pharmacie hospitalière</p>
+        <p>Action de sensibilisation menée auprès de populations soignantes sur le risque d'accident d'exposition au sang (AES) et d'exposition virale (AEV).</p>
+      </div>
+    </article>
+    <article class="row">
+      <div class="datecol"><div class="when">2025<br>2026</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-radiation"/></svg></div></div>
+      <div>
+        <h3>Mémoire de Licence 3, radiopharmacie</h3>
+        <p class="where">Comment concilier radioprotection, protocoles de décontamination et prévention des troubles musculosquelettiques ?</p>
+        <p>Analyse d'une situation professionnelle et recherche documentaire sur les contraintes physiques du travail en enceinte blindée. Le mémoire montre que radioprotection et décontamination peuvent accentuer les contraintes ergonomiques, et propose une démarche de prévention globale : analyse des situations de travail, adaptation des postes et organisation des tâches.</p>
+      </div>
+    </article>
+    <article class="row">
+      <div class="datecol"><div class="when">Juillet<br>2025</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-bubbles"/></svg></div></div>
+      <div>
+        <h3>Éducation thérapeutique du patient (ETP)</h3>
+        <p class="where">Attestation de formation, Aix-Marseille Université</p>
+        <p>Éducation du patient, conseils aux patients et accompagnement.</p>
+      </div>
+    </article>
+    <article class="row">
+      <div class="datecol"><div class="when">2023<br>2026</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-stand"/></svg></div></div>
+      <div>
+        <h3>Stand sur les médicaments à risque</h3>
+        <p class="where">Journée de sensibilisation, Hôpital d'instruction des armées Sainte-Anne</p>
+        <p>Tenue d'un stand dédié aux médicaments à risque lors d'une journée de sensibilisation organisée à l'hôpital.</p>
+      </div>
+    </article>
+    <article class="row">
+      <div class="datecol"><div class="when">2023<br>2025</div><div class="med"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-flame"/></svg></div></div>
+      <div>
+        <h3>Mémoires du DEUST, pharmacie d'officine</h3>
+        <p class="where">Prise en charge des brûlures à l'officine</p>
+        <p>Identification des pathologies à risques, prise en charge et conseils associés pour un patient présentant une brûlure.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="sec" id="competences">
+  <h2>Compétences</h2>
+  <div class="sec-body">
+    <div class="groups">
+      <div>
+        <h3><span class="med sm"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-jar"/></svg></span>Médicament et pharmacie</h3>
+        <ul>
+          <li>Pharmacologie</li>
+          <li>Pharmacocinétique</li>
+          <li>Drug development</li>
+          <li>Pharmacie hospitalière</li>
+          <li>Préparations stériles</li>
+          <li>Medication management</li>
+        </ul>
+      </div>
+      <div>
+        <h3><span class="med sm"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-clipboard"/></svg></span>Qualité et sécurité</h3>
+        <ul>
+          <li>Sécurité du patient</li>
+          <li>Medication safety</li>
+          <li>Quality of care</li>
+          <li>Pharmaceutical care</li>
+        </ul>
+      </div>
+      <div>
+        <h3><span class="med sm"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-bubbles"/></svg></span>Patient et équipe</h3>
+        <ul>
+          <li>Conseils aux patients</li>
+          <li>Éducation du patient</li>
+          <li>Travail d'équipe</li>
+          <li>Collaboration in healthcare</li>
+          <li>Adaptabilité</li>
+        </ul>
+      </div>
+      <div>
+        <h3><span class="med sm"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-atom"/></svg></span>Outils et langues</h3>
+        <ul>
+          <li>Pack Office</li>
+          <li>Français : langue natale</li>
+          <li>Anglais : capacité professionnelle</li>
+          <li>Italien : capacité professionnelle</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="contact">
+  <h2>Contact</h2>
+  <div class="sec-body about-grid">
+    <div>
+    <p>Ouvert aux échanges, au réseau et aux collaborations autour des produits de santé et de l'innovation thérapeutique.</p>
+    <div class="contact-links">
+      <a class="btn" href="mailto:ewandekersauson@gmail.com">Envoyer un mail</a>
+      <a href="https://www.linkedin.com/in/ewan-de-kersauson-bb9a19214" target="_blank" rel="noopener">Profil LinkedIn</a>
+    </div>
+    </div>
+    <div class="about-ill ill-mail"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-mail"/></svg></div>
+  </div>
+</section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">Ewan de Kersauson, 2026</div>
+</footer>
+
+</body>
+</html>
